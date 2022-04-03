@@ -1,0 +1,11 @@
+.header-container {
+    background-color: rgb(27, 133, 231);
+    width: 100%;
+    padding: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
