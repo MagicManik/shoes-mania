@@ -1,9 +1,36 @@
 import React from 'react';
+import shoe from '../../showcase-area-img/shoe.png'
+import useCustomers from '../../hooks/useCustomers';
+import './Home.css'
+import CustomerReview from '../CustomerReview/CustomerReview';
 
 const Home = () => {
+    const [customers, setCutomers] = useCustomers();
+    // console.log(customers)
+
     return (
         <div>
-            <h1>This is my home compoooo</h1>
+            <div className='showcase-container'>
+                <div className='showcase-text'>
+                    <h1>Your next shoes</h1>
+                    <h1><span className='best-show'>Your best shoes</span></h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                </div>
+                <div className='showcase-img'>
+                    <img src={shoe} alt="" />
+                </div>
+            </div>
+
+            <section className='customer-review-section'>
+                <h1>Customer Reviews</h1>
+                <div className='customer-reviews-container'>
+
+                    {
+                        customers.map(customer => <CustomerReview key={customer.id} customer={customer}></CustomerReview>)
+                    }
+
+                </div>
+            </section>
         </div>
     );
 };

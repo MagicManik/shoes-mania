@@ -1,11 +1,13 @@
 .header-container {
-    background-color: rgb(27, 133, 231);
-    width: 100%;
-    padding: 18px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(27, 133, 231); */
+    padding: 20px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
 }
 
-nav a {
+.nav-menu a {
     text-decoration: none;
-    margin: 30px;
-    color: white;
+    margin: 0 20px;
+    color: black;
 }

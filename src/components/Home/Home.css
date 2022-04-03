@@ -1,0 +1,51 @@
+.showcase-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+
+.showcase-text {
+    margin-top: 50px;
+    padding-right: 60px;
+}
+
+.showcase-text h1 {
+    font-size: 50px;
+    margin: 0 auto;
+    color: rgb(29, 29, 29);
+}
+
+.best-show {
+    color: #fa804b;
+}
+
+.showcase-text p {
+    font-size: 18px;
+}
+
+.showcase-img img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.customer-review-section {
+    margin-bottom: 50px;
+}
+
+.customer-review-section h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.customer-reviews-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid black; */
+    margin: 0 5rem;
+
+}
