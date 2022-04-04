@@ -1,0 +1,13 @@
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+    margin: 100px;
+}
+
+.context-api,
+.semantic-tag {
+    border: 1px silver solid;
+    padding: 20px;
+    border-radius: 18px;
+}
