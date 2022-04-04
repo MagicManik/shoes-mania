@@ -1,3 +1,9 @@
+.showcase-area-bg-color {
+    background-image: linear-gradient(180deg, #ffffff 0%, #F2F2FA 50%);
+    padding-bottom: 80px;
+    margin-top: 18px;
+}
+
 .showcase-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -5,6 +11,7 @@
     align-items: center;
     margin: 0 100px;
     margin-bottom: 100px;
+    border-right: 6px solid tomato;
 }
 
 .showcase-text {
@@ -33,7 +40,8 @@
 }
 
 .customer-review-section {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+
 }
 
 .customer-review-section h1 {
@@ -48,4 +56,19 @@
     /* border: 2px solid black; */
     margin: 0 5rem;
 
+}
+
+.reviews-button {
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.reviews-button button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 120px;
+    background-color: #382bee;
+    color: white;
+    font-size: 16px;
 }
