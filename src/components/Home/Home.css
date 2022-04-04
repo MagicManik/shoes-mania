@@ -34,7 +34,7 @@
 }
 
 .showcase-img img {
-    width: 90%;
+    width: 80%;
     display: block;
     margin: 0 auto;
 }
@@ -67,7 +67,7 @@
 .reviews-button button {
     border: none;
     border-radius: 8px;
-    padding: 10px 120px;
+    padding: 8px 120px;
     background-color: #382bee;
     color: white;
     font-size: 16px;

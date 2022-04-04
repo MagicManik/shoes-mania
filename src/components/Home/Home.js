@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import shoe from '../../showcase-area-img/shoe.png'
 import useCustomers from '../../hooks/useCustomers';
 import './Home.css'
@@ -8,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
-    const [customers, setCutomers] = useCustomers();
+    const [customers] = useCustomers();
     // console.log(customers)
 
     const sliceCustomer = customers.slice(1, 4);
