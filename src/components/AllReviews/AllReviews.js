@@ -8,10 +8,11 @@ const AllReviews = () => {
     const [customers] = useCustomers();
     return (
         <section className='all-review-section'>
+            <h1 className='all-customer-reviews'><span className='gradient-text'>All Customer Reviews</span></h1>
             <div className='customer-reviews-container'>
                 {
                     customers.map(customer =>
-                        <div className='customer-review'>
+                        <div key={customer.id} className='customer-review'>
                             <img src={customer.img} alt="" />
                             <div className='customer-review-text'>
                                 <h5>{customer.name}</h5>

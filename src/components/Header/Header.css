@@ -1,16 +1,15 @@
 .header-container {
     display: flex;
     justify-content: center;
-    /* background-color: rgb(27, 133, 231); */
     padding: 20px;
-    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-    background-color: rgba(255, 255, 255, 0.966);
+    background-image: linear-gradient(to right top, #8465f7, #7557f0, #6449ea, #513be3, #3b2ddc);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .nav-menu a {
     text-decoration: none;
     margin: 0 20px;
-    color: black;
+    color: white;
 }

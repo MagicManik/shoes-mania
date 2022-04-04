@@ -1,7 +1,8 @@
 .showcase-area-bg-color {
-    background-image: linear-gradient(180deg, #ffffff 0%, #F2F2FA 50%);
-    padding-bottom: 80px;
-    margin-top: 18px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/09/dentist-13.png), linear-gradient(90deg, #ffffff 50%, #ffffff 50%);
+    padding-bottom: 10px;
+    padding-top: 18px;
+    box-shadow: 0px 1px 20px #c3bcff75;
 }
 
 .showcase-container {
@@ -11,7 +12,6 @@
     align-items: center;
     margin: 0 100px;
     margin-bottom: 100px;
-    border-right: 6px solid tomato;
 }
 
 .showcase-text {
@@ -20,17 +20,43 @@
 }
 
 .showcase-text h1 {
-    font-size: 50px;
+    font-size: 44px;
     margin: 0 auto;
-    color: rgb(29, 29, 29);
+    background-image: linear-gradient(90deg, #8465f7, #3b2ddc);
+    -webkit-background-clip: text;
+    /* -moz-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
-.best-show {
-    color: #fa804b;
+.next-show {
+    color: white;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #ffa745, #fe869f 30%, #ef7ac8 45%, #a083ed 70%, #43aeff 85%);
+    -webkit-background-clip: text;
+    /* -moz-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .showcase-text p {
     font-size: 18px;
+}
+
+.live-demo-button {
+    padding: 16px 26px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    background: linear-gradient(335.64deg, #3b2ddc -19.22%, #8465f7 118.87%);
+    color: #ffffff;
+}
+
+.live-demo-button:hover {
+    background: linear-gradient(335.64deg, #8465f7 -19.22%, #3b2ddc 118.87%);
 }
 
 .showcase-img img {
@@ -41,6 +67,7 @@
 
 .customer-review-section {
     padding-bottom: 50px;
+    padding-top: 40px;
 
 }
 
@@ -53,7 +80,6 @@
 .customer-reviews-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* border: 2px solid black; */
     margin: 0 5rem;
 
 }
@@ -64,11 +90,17 @@
 
 }
 
+
 .reviews-button button {
     border: none;
     border-radius: 8px;
     padding: 8px 120px;
-    background-color: #382bee;
+    background: linear-gradient(335.64deg, #3b2ddc -19.22%, #8465f7 118.87%);
     color: white;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.reviews-button button:hover {
+    background: linear-gradient(335.64deg, #8465f7 -19.22%, #3b2ddc 118.87%);
 }

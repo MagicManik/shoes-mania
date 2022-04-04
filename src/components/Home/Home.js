@@ -25,8 +25,9 @@ const Home = () => {
                 <div className='showcase-container'>
                     <div className='showcase-text'>
                         <h1>Your next shoes</h1>
-                        <h1><span className='best-show'>Your best shoes</span></h1>
+                        <h1><span className='gradient-text'>Your best shoes</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                        <button className='live-demo-button'>Live Demo</button>
                     </div>
                     <div className='showcase-img'>
                         <img src={shoe} alt="" />
@@ -35,7 +36,7 @@ const Home = () => {
             </section>
 
             <section className='customer-review-section'>
-                <h1>Customer Reviews</h1>
+                <h1><span className='gradient-text'>Customer Reviews</span></h1>
                 <div className='customer-reviews-container'>
 
                     {
