@@ -18,3 +18,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@media screen and (max-width: 576px) {
+    .blog-container {
+        grid-template-columns: 1fr;
+        grid-gap: 16px;
+        margin: 16px;
+    }
+}
