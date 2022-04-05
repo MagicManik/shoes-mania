@@ -10,7 +10,7 @@ const Home = () => {
     const [customers] = useCustomers();
     // console.log(customers)
 
-    const sliceCustomer = customers.slice(1, 4);
+    const sliceCustomer = customers.slice(0, 3);
 
     const navigate = useNavigate();
 
@@ -25,8 +25,12 @@ const Home = () => {
                 <div className='showcase-container'>
                     <div className='showcase-text'>
                         <h1>Your next shoes</h1>
-                        <h1><span className='gradient-text'>Your best shoes</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+                        <h1>
+                            <span className='gradient-text'>Your best shoes</span>
+                        </h1>
+                        <p>
+                            Big Offer Up to 50% of on Nike Air Force Shoes. Everyone konws Nike is one of the most popular sports bands in the world. Most probably your grandpapa knew that too. In Bangladesh we are an authorized dealer of Nike. Nike has allowed us to offer this special offer to our customers to enhance the reputation of our shop as we are able to fulfill a target of Nike. So without delay, jump in our shop with your family and friends to get the offer now.
+                        </p>
                         <button className='live-demo-button'>Live Demo</button>
                     </div>
                     <div className='showcase-img'>
@@ -36,7 +40,7 @@ const Home = () => {
             </section>
 
             <section className='customer-review-section'>
-                <h1><span className='gradient-text'>Customer Reviews</span></h1>
+                <h1><span className='gradient-text'>Our Customer Reviews</span></h1>
                 <div className='customer-reviews-container'>
 
                     {

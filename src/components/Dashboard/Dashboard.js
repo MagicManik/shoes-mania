@@ -10,9 +10,9 @@ const Dashboard = () => {
         <div className='chart-container'>
             <div className='responsive-chart-container'>
                 <div className='composedChart'>
-                    <ResponsiveContainer width={700} height={350}>
+                    <ResponsiveContainer width={`100%`} height={350}>
                         <ComposedChart
-                            width={900}
+                            width={`100%`}
                             height={400}
                             data={recharts}
                             margin={{
@@ -52,8 +52,8 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className='bar-chart'>
-                <div>
+            <div>
+                <div className='bar-chart'>
                     <BarChart width={1000} height={400} data={recharts}>
                         <XAxis dataKey="name" stroke="#824ffb" />
                         <YAxis />

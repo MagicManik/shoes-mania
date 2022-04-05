@@ -1,6 +1,6 @@
 .chart-container {
     background-color: rgb(20, 20, 20);
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 .responsive-chart-container {
@@ -9,7 +9,6 @@
     grid-gap: 50px;
     justify-content: center;
     align-items: center;
-    /* margin: 80px; */
 }
 
 .composedChart {
@@ -23,10 +22,51 @@
 }
 
 .bar-chart {
-    margin: 80px;
     border: 1px solid rgb(189, 189, 189);
     border-radius: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+}
+
+.recharts-wrapper {
+    width: 300px;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .composedChart {
+        margin: 0px !important;
+    }
+
+
+    .chart-container {
+        padding: 10px 0;
+    }
+
+    .responsive-chart-container {
+        padding: 16px;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+
+    .recharts-responsive-container {
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .recharts-wrapper {
+        width: 100% !important;
+    }
+
+    .recharts-surface {
+        width: 100% !important;
+    }
+
+    .bar-chart {
+        margin: 16px;
+    }
 }

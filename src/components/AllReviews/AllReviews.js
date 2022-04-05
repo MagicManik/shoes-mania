@@ -8,7 +8,7 @@ const AllReviews = () => {
     const [customers] = useCustomers();
     return (
         <section className='all-review-section'>
-            <h1 className='all-customer-reviews'><span className='gradient-text'>All Customer Reviews</span></h1>
+            <h1 className='all-customer-reviews'><span className='gradient-text'>Our All Customer Reviews</span></h1>
             <div className='customer-reviews-container'>
                 {
                     customers.map(customer =>
