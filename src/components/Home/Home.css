@@ -128,11 +128,12 @@
 
     }
 
-    .customer-reviews-section h1 {
-        margin-bottom: 0;
+    .reviews-heading {
+        margin-bottom: 28px !important;
+        font-size: 30px !important;
     }
 
     .reviews-button button {
-        padding: 8px 20px;
+        padding: 12px 26px;
     }
 }

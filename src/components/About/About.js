@@ -1,9 +1,10 @@
 import React from 'react';
+import './About.css'
 
 const About = () => {
     return (
         <div>
-            <h1>This Is My about compooooooo</h1>
+            <h1 className='gradient-text'>This component is under construction. Keep an eye on the milestones ahead.</h1>
         </div>
     );
 };
