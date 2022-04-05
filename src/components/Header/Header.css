@@ -1,12 +1,14 @@
 .header-container {
-    display: flex;
-    justify-content: center;
     padding: 20px;
     background-image: linear-gradient(to right top, #8465f7, #7557f0, #6449ea, #513be3, #3b2ddc);
     position: sticky;
     top: 0;
     z-index: 1;
-    /* width: 90%; */
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
 }
 
 .nav-menu a {
