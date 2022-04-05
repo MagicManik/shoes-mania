@@ -26,7 +26,7 @@ const Home = () => {
                     <div className='showcase-text'>
                         <h1>Your next shoes</h1>
                         <h1>
-                            <span className='gradient-text'>Your best shoes</span>
+                            <span className='gradient-text-2'>Your best shoes</span>
                         </h1>
                         <p>
                             Big Offer Up to 50% of on Nike Air Force Shoes. Everyone konws Nike is one of the most popular sports bands in the world. Most probably your grandpapa knew that too. In Bangladesh we are an authorized dealer of Nike. Nike has allowed us to offer this special offer to our customers to enhance the reputation of our shop as we are able to fulfill a target of Nike. So without delay, jump in our shop with your family and friends to get the offer now.
