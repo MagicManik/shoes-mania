@@ -127,4 +127,12 @@
         margin: 0;
 
     }
+
+    .customer-reviews-section h1 {
+        margin-bottom: 0;
+    }
+
+    .reviews-button button {
+        padding: 8px 20px;
+    }
 }

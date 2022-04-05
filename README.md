@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Shoes Mania
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project Live Link is here [click and go Shoes Mania](https://shoes-mania.netlify.app/).
+
+* Bullet list
+
 
 ## Available Scripts
 

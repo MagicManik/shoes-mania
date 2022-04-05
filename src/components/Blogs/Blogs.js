@@ -11,7 +11,7 @@ const Blogs = () => {
             </div>
 
             <div className='semantic-tag'>
-                <h1><span className='gradient-text-2'>What Is Semantic Tag in HTML ?</span></h1>
+                <h1><span className='gradient-text-2'>What Is Semantic Tag ?</span></h1>
                 <p>Semantic tags play a vital role in understanding the layout of a web site. It is as useful for web developers and web browsers as it is for our search engine bots. Before the semantic tag came, search engine bots could not scroll through our web sites well and our developers also had to face many problems to understand the code of any other developer. The job of semantic tags is to make our web site meaningful. The key to semantic tags is that machines and human genes can easily read and understand code.</p>
             </div>
         </section>

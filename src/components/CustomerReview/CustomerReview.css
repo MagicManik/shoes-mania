@@ -1,5 +1,5 @@
 .customer-review {
-    width: 300px;
+    width: 75%;
     height: 420px;
     padding: 28px;
     border-radius: 18px;
@@ -28,4 +28,6 @@
 
 .customer-review-text svg {
     color: #ffb400;
+    margin: 2px;
+    font-size: 15px;
 }
